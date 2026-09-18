@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 					"models/survivors/raven/face"
+	"$bumpmap" 					"models/survivors/raven/face_n"
+	$phongexponenttexture		"dev/reflectivity_90b"
+	
+	"$phong" 			"1"
+	"$phongexponent" 			"16"
+	"$phongboost" 			"0.1"
+	"$phongfresnelranges" 		"[6 2 1]"
+	"$phongalbedotint" 			"1"
+
+	"$nodecal" 		1
+}

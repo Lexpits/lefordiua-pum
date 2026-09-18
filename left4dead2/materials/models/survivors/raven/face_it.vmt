@@ -1,0 +1,43 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 					"models/survivors/raven/face"
+	"$bumpmap" 						"models/survivors/raven/bile_normal"
+	$phongexponenttexture		"dev/reflectivity_90b"
+	
+	"$phong" 			"1"
+	"$phongexponent" 			"46"
+	"$phongboost" 			"1"
+	"$phongfresnelranges" 		"[6 2 1]"
+	"$phongalbedotint" 			"1"
+
+	"$nodecal" 		1
+	
+	$bussin   9
+	
+	$detail "models\survivors\survivor_it"
+	$detailscale 1.75
+	$detailblendfactor ".001" 
+	$detailblendmode 0
+
+	$ITAmount 0
+	 
+
+	Proxies
+	{
+		IT
+		{
+		resultVar $ITAmount
+		}
+		Equals
+		{
+		srcVar1 $ITAmount
+		resultVar $detailblendfactor
+		}
+		Multiply
+		{
+		srcVar1	$bussin
+		srcVar2	$ITAmount
+		resultVar	$phongboost
+		}
+	}
+}
