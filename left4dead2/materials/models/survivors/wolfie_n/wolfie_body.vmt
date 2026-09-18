@@ -1,0 +1,11 @@
+patch
+{
+	include "materials/models/survivors/survivors_it_shared.vmt"
+	insert
+	{
+	$basetexture "models\survivors\Wolfie_N/Wolfie_Body_Diff"
+	$bumpmap "models\survivors\Wolfie_N/Wolfie_Body_Bump"
+	$phong 1
+	$nodecal 1
+	}
+}

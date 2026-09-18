@@ -1,0 +1,23 @@
+EyeRefract
+{
+	$iris "models\survivors\Wolfie_N/Wolfie_Eyeball_L"
+	$AmbientOcclTexture 	"models\survivors\Wolfie_N\eye_ext"
+	$envmap 	"engine/eye-reflection-cubemap-"	
+	$corneatexture 	"models\survivors\Wolfie_N\iris_nrm"	
+	
+	$EyeballRadius		"0.5"
+	$AmbientOcclColor		"[0.25 0.25 0.25]"
+	$Dilation			"0.5"
+	$ParallaxStrength		"0.25"
+	$CorneaBumpStrength		"0.1"
+	$Glossiness			"0.1"
+	
+	$phong 1
+	$halflambert 1
+	$phongboost	".075"
+	$nodecal 1
+	
+	$RaytraceSphere		0
+	$SphereTexkillCombo	0
+}
+
