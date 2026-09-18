@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 					"models/survivors/hwire/mouth"
+	"$bumpmap" 					"dev/flat_normal"
+	"$phongexponenttexture"	"dev/reflectivity_90b"
+ 
+	$phong 								"1"
+	$phongexponent 					"16"
+	$phongboost 						".1"
+	$phongfresnelranges 			"[6 2 1]"
+	$phongalbedotint 					"1"
+
+	$halflambert							"1"
+	$nodecal								"1"
+	
+	$emissiveBlendEnabled 			"1"
+	
+	$emissiveBlendFlowTexture		"vgui/white" //Flow from Green to Red. Yellow = still
+	$emissiveBlendTexture				"vgui/white" //The texture that the flowmap scrolls. Not mapped to a UV
+	$emissiveBlendBaseTexture		"models/survivors/hwire/mouth" //The texture used for the self-illumination. Can be colored or grayscale. Does not adopt the base texture's color
+	
+	$emissiveBlendTint 					"[1 1 1]"
+	$emissiveBlendStrength 			"1"
+	$emissiveBlendScrollVector 		"[0 -0]"
+}
