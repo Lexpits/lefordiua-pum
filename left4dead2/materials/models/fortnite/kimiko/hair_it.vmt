@@ -1,0 +1,25 @@
+patch
+{
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+	"$basetexture" "models/fortnite/kimiko/hair"
+	"$bumpmap" "models/fortnite/kimiko/hair_n"
+
+
+    "$lightwarptexture" "models/fortnite/shared\lightwarptexture"
+	
+	"$nocull" "1"
+	"$nodecal" "1"
+	
+    "$phong" "1"
+    "$phongboost" "24"
+    "$phongalbedotint" "1"
+    "$phongfresnelranges" "[0.002 0.005 1]" 
+
+    "$halflambert" "1"
+	
+	"$rimlight"               "1"
+	"$rimlightexponent"       "2"
+	"$rimlightboost"          "2"
+}

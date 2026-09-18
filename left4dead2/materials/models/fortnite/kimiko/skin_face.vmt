@@ -1,0 +1,33 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/fortnite/kimiko/skin_face"
+	"$bumpmap" "models/fortnite/kimiko/skin_face_n"
+
+
+    "$lightwarptexture" "models/fortnite/shared\lightwarptexture"
+	
+	"$nocull" "1"
+	"$nodecal" "1"
+	
+    "$phong" "1"
+    "$phongboost" "24"
+    "$phongalbedotint" "1"
+    "$phongfresnelranges" "[0 0 1]"
+
+    "$halflambert" "1"
+	
+	"$rimlight"               "1"
+	"$rimlightexponent"       "2"
+	"$rimlightboost"          "2"
+	
+	
+	"$SelfIllum" 			 	  "1"
+	"$SelfIllumTint" 		 	  "[1 1 1]"
+	"$SelfIllumMask" 		   	  "models/fortnite/kimiko/glow"
+	"$SelfIllumFresnel"			  "1"
+
+	"$Detail" 				  	  "models/fortnite/kimiko/glow"
+	"$DetailScale" 			  	  "1"
+	"$DetailBlendFactor" 	  	  "0.1" //// "1.5"
+	"$DetailBlendMode" 		   	  "5"
+}
