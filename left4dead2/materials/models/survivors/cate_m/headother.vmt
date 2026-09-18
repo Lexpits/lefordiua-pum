@@ -1,0 +1,17 @@
+patch
+{
+	include "materials/models/survivors/survivors_it_shared.vmt"
+	insert
+	{
+	"$basetexture" "models\survivors\Cate_M/HeadOther"
+	"$bumpmap" "models\survivors\Cate_M/HeadOtherN"
+	$Nodecal 1
+	"$basemapalphaphongmask" "1"
+	"$phongexponent" "0"
+	"$phongboost" "0"	
+	"$phongfresnelranges"	"[.5 3 5]"
+	"$halflambert" "1"
+	"$nocull" "1"
+	}
+
+}
